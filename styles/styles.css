@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+    .imagenprincipalinicio{
+        background-image: url("../Multimedia/principal.jpg");
+        height: 100vh;
+    }
+
+    .imagennosotros{
+        background-image: url("./../Multimedia/nosotros.jpg");
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+
+    .imagenservicios{
+        background-image: url("../Multimedia/servicios.png");
+        height: 100vh;
+    }
+
+    .imagencontacto{
+        background-image: url("../Multimedia/contacto.jpg");
+        height: 100vh;
+    }
+
+    .pie {
+        background-color: #a75dfc;
+        color:white;
+        text-align: center center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-thumbnail {
+        max-width: 5%;
+    }

@@ -27,6 +27,11 @@
         height: 100vh;
     }
 
+    .imagenproyectos{
+        background-image: url("../Multimedia/Proyectos.jpg");
+        height: 100vh;
+    }
+
     .pie {
         background-color: #a75dfc;
         color:white;

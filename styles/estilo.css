@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+*::-moz-selection {
+  background-color: black;
+  color: rgb(206, 63, 250);
+}
+*::selection {
+  background-color: black;
+  color: rgb(206, 63, 250);
+}
+
+.imagenprincipalinicio {
+  background-image: url("../Multimedia/principal.jpg");
+  height: 100vh;
+}
+
+.img-thumbnail {
+    max-width: 5%;
+}
+
+
+.imagencontacto {
+  background-image: url("../Multimedia/contacto.jpg");
+  height: 100vh;
+}
+
+.imagennosotros {
+  background-image: url("./../Multimedia/nosotros.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.imagenservicios {
+  background-image: url("../Multimedia/servicios.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+.pie {
+  background-color: #a75dfc;
+  color: white;
+  text-align: center center;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=estilo.css.map */

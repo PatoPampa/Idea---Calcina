@@ -1,7 +1,20 @@
 .pie {
-        background-color: $maincolor;
-        color:white;
-        text-align: center center;
-        display: flex;
-        justify-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: $maincolor;
+    color: white;
+    text-align: center;
+    padding-block: 40px;
+
+.iconos {
+display: flex;
+align-items: center;
+justify-content: center;
+        
+.fab {
+      padding: 1rem;
+            }
+        }
     }
+
+

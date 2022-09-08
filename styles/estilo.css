@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,9 +20,8 @@
 }
 
 .img-thumbnail {
-    max-width: 5%;
+  max-width: 5%;
 }
-
 
 .imagencontacto {
   background-image: url("../Multimedia/contacto.jpg");
@@ -43,9 +43,18 @@
 }
 
 .pie {
-  background-color: #a75dfc;
-  color: white;
-  text-align: center center;
   display: flex;
   justify-content: center;
+  background-color: #a75dfc;
+  color: white;
+  text-align: center;
+  padding-block: 40px;
+}
+.pie .iconos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pie .iconos .fab {
+  padding: 1rem;
 }/*# sourceMappingURL=estilo.css.map */

@@ -18,3 +18,25 @@ justify-content: center;
     }
 
 
+$redespie: (
+    facebook: rgba(1, 1, 64, 0.4),
+    instagram: rgba(140, 2, 140, 0.629),
+    whatsapp: rgba(1, 160, 1, 0.523)
+);
+
+@each $redsocial, $color in $redespie {
+    .fa-#{$redsocial} {
+        background-color: $color;
+    }
+}
+
+@mixin borderedondo ($border, $ancho, $alto) {
+    border-radius: $border;
+    width: $ancho; 
+    height: $alto;
+}
+
+.iconos .fab {
+@include borderedondo(100px, 50px, 50px)
+}
+

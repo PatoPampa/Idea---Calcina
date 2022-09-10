@@ -1,3 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 $maincolor: #a75dfc;
 
+%tarjetas {
+   
+        background-color: rgb(67, 62, 67);
+        padding: 120px;
+        border-radius: 20px;
+        padding-block: 50px;
+        gap: 1rem; 
+    
+        &:hover {
+            background-color: rgba(65, 56, 65, 0.236);
+            
+            
+        }}

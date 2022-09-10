@@ -1,0 +1,84 @@
+.servicios {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $maincolor;
+
+    .servicio {
+        -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        width: 80px;
+        height: 80px;
+        border-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .servicio1 {
+        width: 150px;
+        font-size: 20px;
+        background-color: rgb(77, 16, 77);
+        padding: 120px;
+        border-radius: 20px;
+        padding-block: 50px;
+        gap: 1rem;
+
+
+        &:hover {
+            background-color: rgba(238, 130, 238, 0.236);
+            
+            
+        }
+
+    }
+    .servicio2 {
+        @extend .servicio1;
+    }
+    .servicio3 {
+        @extend .servicio1;
+    }
+
+    @for $servicio from 1 through 3 {
+        .servicio:nth-child(#{$servicio}){
+            animation-delay: $servicio*0.25s;
+        }
+    }
+
+}
+
+
+ @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+
